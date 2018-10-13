@@ -1,0 +1,198 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+header{
+  padding: 10px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+header img{
+  width: 150px;
+}
+header nav a{
+  padding: 15px;
+  text-decoration: none;
+  color: #777;
+}
+
+header nav a:hover{
+  border-bottom: 2px solid #0099ff;;
+}
+
+
+.services{
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.services .flex{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.icon-block{
+  margin-bottom: 30px;
+  width: 40%;
+  position: relative;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  background-color: rgba(255,255,255,0.81);
+}
+.icon-block h3{
+  margin-top: 40px;
+}
+
+.icon{
+    left:38%;
+    top: -28px;
+    position: absolute;
+    background: #0099ff;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+.order{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.order a{
+
+    border:2px solid #de3f18;
+    color: #de3f18 ;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+
+  min-height: 210px;
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.description{
+  text-align: center;
+}
+.description p{
+  text-align: justify;
+  font-size: 22px;
+  color: #404040;
+}
+
+
+
+
+
+
+
+
+
+
+.section-partners{
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+}
+.section-partners div{
+  margin: 10px auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+.partners-list-item{
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 30%;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+}
+.partners-list-item img{
+   width: 100px;
+   height: 50px;
+}
+
+
+
+
+.section-numbers{
+  background-color: #f4f4f4;
+  text-align:center;
+}
+h2{
+  font-weight: 300;
+}
+.section-numbers h2{
+
+    font-family: 'Lato', sans-serif;
+  margin-top: 0;
+}
+.block-numbers{
+  padding: 0 20px;
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+
+
+.block-numbers-item{
+  width:130px;
+}
+
+.block-numbers-item p{
+  margin-top:20px;
+}
+
+
+
+
+
+
+
+
+footer{
+background: #2b363d;
+}
+footer h2{
+      margin-top: 0;
+      color: #fffffd;
+}
+footer span{
+  display: block;
+  color: #8a8a8a;
+}
