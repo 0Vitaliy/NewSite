@@ -116,8 +116,22 @@ header nav a:hover{
 }
 
 
-
-
+.why{
+  text-align: center;
+}
+.why div{
+  display: flex;
+}
+.why ul{
+  width: 50%;
+  text-align: left;
+  display: block;
+  list-style-type: none;
+}
+.why ul li i{
+  color: #017F03;
+  padding-right: 10px;
+}
 
 
 
