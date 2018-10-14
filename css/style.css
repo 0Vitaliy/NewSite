@@ -4,7 +4,7 @@ body{
   font-family: 'Lato', sans-serif;
 }
 header{
-  padding: 10px;
+  padding: 20px;
   display: flex;
 
   justify-content: space-between;
@@ -25,6 +25,7 @@ header nav a:hover{
 
 
 .services{
+  padding: 20px;
   text-align: center;
   background-color: #f1f1f1;
 }
@@ -33,12 +34,13 @@ header nav a:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .icon-block{
-  margin-bottom: 30px;
-  width: 40%;
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 80%;
   position: relative;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
@@ -47,7 +49,9 @@ header nav a:hover{
 .icon-block h3{
   margin-top: 40px;
 }
-
+.icon-block p{
+      line-height: 1.5;
+}
 .icon{
     left:38%;
     top: -28px;
@@ -67,10 +71,13 @@ header nav a:hover{
 
 
 .order{
+  padding: 20px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
-
+.order p{
+  margin-bottom: 40px;
+}
 .order a{
 
     border:2px solid #de3f18;
@@ -107,6 +114,7 @@ header nav a:hover{
 }
 
 .description{
+  padding: 20px;
   text-align: center;
 }
 .description p{
@@ -117,16 +125,25 @@ header nav a:hover{
 
 
 .why{
+  padding: 20px;
   text-align: center;
 }
+.why h2{
+  margin-top: 40px;
+}
 .why div{
-  display: flex;
+  /* display: flex; */
 }
 .why ul{
-  width: 50%;
+  margin: 0 auto;
+
+  width: 75%;
   text-align: left;
   display: block;
   list-style-type: none;
+}
+.why ul li{
+  margin-top: 10px;
 }
 .why ul li i{
   color: #017F03;
@@ -139,6 +156,7 @@ header nav a:hover{
 
 
 .section-partners{
+  padding: 20px;
   text-align: center;
   border-bottom: 1px solid #e4e4e4;
 }
@@ -151,7 +169,7 @@ header nav a:hover{
   align-items: center;
   justify-content: center;
   height: 80px;
-  width: 30%;
+  width: 45%;
   border: 1px solid #dedede;
   border-radius: 4px;
 }
@@ -164,6 +182,7 @@ header nav a:hover{
 
 
 .section-numbers{
+  padding: 20px 20px 40px;
   background-color: #f4f4f4;
   text-align:center;
 }
@@ -173,7 +192,7 @@ h2{
 .section-numbers h2{
 
     font-family: 'Lato', sans-serif;
-  margin-top: 0;
+  margin-bottom: 40px;
 }
 .block-numbers{
   padding: 0 20px;
@@ -185,7 +204,8 @@ h2{
 
 
 .block-numbers-item{
-  width:130px;
+  width:150px;
+  margin-top: 20px;
 }
 
 .block-numbers-item p{
@@ -200,13 +220,35 @@ h2{
 
 
 footer{
+  padding: 20px;
 background: #2b363d;
 }
 footer h2{
       margin-top: 0;
       color: #fffffd;
 }
+footer .prava{
+  border-top: 1px solid rgba(102, 111, 123, 0.2);
+  margin-top: 20px;
+  padding:  20px 0;
+}
 footer span{
+  margin-top: 5px;
   display: block;
   color: #8a8a8a;
+}
+
+
+
+@media screen and (min-width:720px) {
+    .icon-block{
+      width: 40%;
+    }
+ .why div{
+   display: flex;
+ }
+ .partners-list-item{
+   width: 30%;
+ }
+
 }
